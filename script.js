@@ -2,12 +2,13 @@ var today = moment();
 $("#currentDay").text(today.format("D MMM YYYY"));
 
 var form = document.querySelector("form")
+var addText = document.querySelector(".textInput");
 var getText = document.querySelector(".enterText");
 var saveBtn = document.querySelector("#savedata");
 
 var h1 = document.querySelector("h1");
 var note = document.querySelector(".dataStored");
-var p = document.querySelector(".Saved");
+var saved = document.querySelector(".p");
 
 
 
@@ -15,7 +16,7 @@ var p = document.querySelector(".Saved");
 // Event Listener
 
 form.addEventListener("save", function(event) {
-    event.preventDefault()
+    event.preventDefault();
 
 });
 
@@ -28,11 +29,20 @@ saveBtn.addEventListener('click', function(){
 function nameDisplayCheck() {
     if (localStorage.getItem('text')) {
         var text = localStorage.getItem(text);
-        h1.textContent = `Event Saved`
-        saved.textContent = `Now saved to local storage`;
+        h1.textContent = `Event Saved ${text}!`;
+        // saved.textContent = `Now saved to local storage`;
 
     }
-}console.log(localStorage.getItem('txt'))
+}console.log(localStorage.getItem('text'))
+
+// test for local here
+
+// Set Item
+localStorage.setItem("lastname", "Smith");
+// Retrieve
+document.getElementById("demo").innerHTML = localStorage.getItem("lastname");
+
+
 
 
 
