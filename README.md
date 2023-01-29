@@ -74,6 +74,14 @@ https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_localstorage
 These tutorials from netninja helped me to understand how to apply some of the features in bootstrap
 https://www.youtube.com/watch?v=iUCyU_U0J2E
 
+I had lots of problems resizing with bootstrap and used this guide to help me with the width
+https://mdbootstrap.com/how-to/bootstrap/change-input-width
+
+
+I looked at Tutorialspoint for documentation on how to work out time differences
+https://www.tutorialspoint.com/How-to-compare-two-dates-with-JavaScript#:~:text=date%20and%20time.-,Moment.,difference%20between%20the%20two%20dates.
+
+
 <!-- replace below -->
 
 
