@@ -82,3 +82,9 @@ textarea {
 .textarea {
   background-color: grey;
 }
+
+#save {
+height: 60px;
+width: 100px;
+background-color: #ff6961;
+}

@@ -27,70 +27,81 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <p class="Saved">Now Saved to Local Storage /</p> 
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
 
+      <form>
+      <div class="textInput">
+        <label for="entertext"></label>
+        <input type="text" id="enterText">
+        <input type="savetext" id="savedata" value="save">
+        </div>
+      </form>
+
     <div class="row">
-      <div class="col-md-3 col-md-push-9">9am</div>
-      <!-- <div class="col-md-6 col-md-pull-6"> -->
-    <label for="exampleFormControlTextarea1"></label>
-   
-        <textarea class="w-75 p3" id="exampleFormControlTextarea1" style="background-color:grey" rows="3"></textarea>
+      <div class="col-sm">
+        9am
       </div>
-      
-      <div class="col-md-3 col-md-push-9">
+      <label for="textarea1"></label>
+      <textarea class="w-75" id="textarea1" style="background-color:grey">
+      </textarea></div>
+      <div class="col-sm" style="background-color:blueviolet"></div>
+      <div id="msg"></div>
+      <!-- <button id="save">Save</button> -->
       <!-- <i class="disk"></i></div> <i class="fa-regular fa-floppy-disk"></i> -->
     </div>
+    
  
 
     <div class="row">
-      <div class="col-md-3 col-md-push-9">10am</div>
-      <div class="col-md-6 col-md-pull-6">.col-md-6 .col-md-pull-6</div>
-      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-pull-9</div>
+      <div class="col-md-3 col-md-push-9" style="background-color: limegreen" >10am</div>
+      <div class="col-md-6 col-md-pull-6" style="background-color:grey">.col-md-6 .col-md-pull-6</div>
+      <div class="col-md-3 col-md-push-9" style="background-color:blueviolet">.col-md-3 .col-md-push-9</div>
     </div>
 
     <div class="row">
       <div class="col-md-3 col-md-push-9">11am</div>
       <div class="col-md-6 col-md-pull-6">.col-md-6 .col-md-pull-6</div>
-      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-pull-9</div>
+      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-push-9</div>
     </div>
 
 
     <div class="row">
       <div class="col-md-3 col-md-push-9">12pm</div>
       <div class="col-md-6 col-md-pull-6">.col-md-6 .col-md-pull-6</div>
-      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-pull-9</div>
+      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-push-9</div>
     </div>
 
     <div class="row">
       <div class="col-md-3 col-md-push-9">1pm</div>
       <div class="col-md-6 col-md-pull-6">.col-md-6 .col-md-pull-6</div>
-      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-pull-9</div>
+      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-push-9</div>
     </div>
 
     <div class="row">
       <div class="col-md-3 col-md-push-9">2pm</div>
       <div class="col-md-6 col-md-pull-6">.col-md-6 .col-md-pull-6</div>
-      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-pull-9</div>
+      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-push-9</div>
     </div>
 
     <div class="row">
       <div class="col-md-3 col-md-push-9">3pm</div>
       <div class="col-md-6 col-md-pull-6">.col-md-6 .col-md-pull-6</div>
-      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-pull-9</div>
+      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-push-9</div>
     </div>
 
     <div class="row">
       <div class="col-md-3 col-md-push-9">4pm</div>
       <div class="col-md-6 col-md-pull-6">.col-md-6 .col-md-pull-6</div>
-      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-pull-9</div>
+      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-push-9</div>
     </div>
 
     <div class="row">
       <div class="col-md-3 col-md-push-9">5pm</div>
       <div class="col-md-6 col-md-pull-6">.col-md-6 .col-md-pull-6</div>
-      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-pull-9</div>
+      <div class="col-md-3 col-md-push-9">.col-md-3 .col-md-push-9</div>
     </div>
  
   </div>
