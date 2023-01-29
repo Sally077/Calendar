@@ -23,7 +23,7 @@
     <title>Work Day Scheduler</title>
   </head>
 
-  <body>
+    <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -31,39 +31,64 @@
       <p class="Saved">Now Saved to Local Storage /</p> 
     </header>
     <div class="container">
+      <!-- Scroll Bar -->
+    <nav class="col-sm-3" id="myScrollspy">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li><a href="#section4">Section 2</a></li>
+          <li><a href="#section5">Section 3</a></li>
+          <li><a href="#section6">Section 2</a></li>
+          <li><a href="#section7">Section 3</a></li>
+          <li><a href="#section8">Section 2</a></li>
+          <li><a href="#section9">Section 3</a></li>
+        </ul>
+        </nav>
+
+
       <!-- Timeblocks go here -->
       
     <div class="input-group mb-3">
+      <div class="col-sm-9">
+      <div id="section1">  
         <div class="input-group-append w-75 input-lg">
         <div class="md-6 col bg-success" id="9">9 am</div>
         <input type="text" class="form-control input-lg" id ="timeText" aria-label="With textarea" placeholder="enter text here" aria-label="Username" aria-describedby="basic-addon1">
         <span type="button" class="btn btn-info btn-lg" id="save"><i class="bi bi-save-fill"></i></span>
         </div>
         </div>
+      </div>
     </div>
+  </div>
     
     
 
     <div class="input-group mb-3">
+      <div id="section2">
       <div class="input-group-append w-75 input-lg">
       <div class="md-6 col bg-success">10 am</div>
       <input type="text" class="form-control input-lg" aria-label="With textarea" placeholder="Username" aria-label="enter text here" aria-describedby="basic-addon1">
       <span type="button" class="btn btn-info btn-lg" id="save"><i class="bi bi-save-fill"></i></span>
       </div>
+    </div>
       </div>
    </div>
 
 
   <div class="input-group mb-3">
+    <div id="section3">
     <div class="input-group-append w-75 input-lg">
     <div class="md-6 col bg-success">11 am</div>
     <input type="text" class="form-control input-lg" aria-label="With textarea" placeholder="Username" aria-label="enter text here" aria-describedby="basic-addon1">
     <span type="button" class="btn btn-info btn-lg" id="save"><i class="bi bi-save-fill"></i></span>
     </div>
     </div>
+    </div>
   </div>
 
   <div class="input-group mb-3">
+    <div id="section4">
     <div class="input-group-append w-75 input-lg">
     <div class="md-6 col bg-success">12 am</div>
     <input type="text" class="form-control input-lg" aria-label="With textarea" placeholder="Username" aria-label="enter text here" aria-describedby="basic-addon1">
@@ -71,8 +96,10 @@
     </div>
     </div>
   </div>
+  </div>
 
   <div class="input-group mb-3">
+    <div id="section5">
     <div class="input-group-append w-75 input-lg">
     <div class="md-6 col bg-success">1 pm</div>
     <input type="text" class="form-control input-lg" aria-label="With textarea" placeholder="Username" aria-label="enter text here" aria-describedby="basic-addon1">
@@ -80,8 +107,10 @@
     </div>
     </div>
   </div>
+  </div>
   
   <div class="input-group mb-3">
+    <div id="section6">
     <div class="input-group-append w-75 input-lg">
     <div class="md-6 col bg-success">2 pm</div>
     <input type="text" class="form-control input-lg" aria-label="With textarea" placeholder="Username" aria-label="enter text here" aria-describedby="basic-addon1">
@@ -89,9 +118,11 @@
     </div>
     </div>
   </div>
+  </div>
 
 
   <div class="input-group mb-3">
+    <div id="section7">
     <div class="input-group-append w-75 input-lg">
     <div class="md-6 col bg-success">3 pm</div>
     <input type="text" class="form-control input-lg" aria-label="With textarea" placeholder="Username" aria-label="enter text here" aria-describedby="basic-addon1">
@@ -99,23 +130,28 @@
     </div>
     </div>
   </div>
+  </div>
 
   <div class="input-group mb-3">
+    <div id="section8">
     <div class="input-group-append w-75 input-lg">
     <div class="md-6 col bg-success">4 pm</div>
     <input type="text" class="form-control input-lg" aria-label="With textarea" placeholder="Username" aria-label="enter text here" aria-describedby="basic-addon1">
     <span type="button" class="btn btn-info btn-lg" id="save"><i class="bi bi-save-fill"></i></span>
     </div>
     </div>
-  </div>
+    </div>
+</div>
 
   <div class="input-group mb-3">
+    <div id="section9"></div>
     <div class="input-group-append w-75 input-lg">
     <div class="md-6 col bg-success">5 pm</div>
     <input type="text" class="form-control input-lg" aria-label="With textarea" placeholder="Username" aria-label="enter text here" aria-describedby="basic-addon1">
     <span type="button" class="btn btn-info btn-lg" id="save"><i class="bi bi-save-fill"></i></span>
     </div>
     </div>
+  </div>
   </div>
 
 

@@ -15,10 +15,10 @@ var saved = document.querySelector(".p");
 
 // Event Listener
 
-form.addEventListener("save", function(event) {
+form.addEventListener("#save", function(event) {
     event.preventDefault();
 
-});
+// });
 
 saveBtn.addEventListener('click', function(){
 
@@ -33,7 +33,8 @@ function nameDisplayCheck() {
         // saved.textContent = `Now saved to local storage`;
 
     }
-}console.log(localStorage.getItem('text'))
+}
+console.log(localStorage.getItem('text'))
 
 
 // checking the time against the time blocks
@@ -58,20 +59,4 @@ var output = document.getElementById("9");
     date2 = new Date();
     compareDates( date1, date2 );
 
-
-
-// function timeCheck() {
-
-//   if ("#9" == moment().format('LT')) 
-//     // "#timeText" color = green 
-
-// }
-
-
-
-
-
-
-
-
-
+    console.log(compareDates);

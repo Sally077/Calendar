@@ -81,6 +81,8 @@ https://mdbootstrap.com/how-to/bootstrap/change-input-width
 I looked at Tutorialspoint for documentation on how to work out time differences
 https://www.tutorialspoint.com/How-to-compare-two-dates-with-JavaScript#:~:text=date%20and%20time.-,Moment.,difference%20between%20the%20two%20dates.
 
+I tried the following text from w3 schools to try and add a scroll bar as part of the brief
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy2&stacked=h
 
 <!-- replace below -->
 
