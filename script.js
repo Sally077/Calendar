@@ -59,4 +59,10 @@ var output = document.getElementById("9");
     date2 = new Date();
     compareDates( date1, date2 );
 
+})
+
     console.log(compareDates);
+// scroll bar code
+    $(document).ready(function(){
+        $('body').scrollspy({target: ".navbar", offset: 50});   
+      });
