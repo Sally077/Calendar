@@ -68,14 +68,10 @@ I looked at the following video tutorial on how to save inputs to local storage 
 https://www.youtube.com/watch?v=6PsBeh2MgYc
 
 
+I looked at the following website tutorial on w3schools
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_localstorage
 
 <!-- replace below -->
-
-
-
-
-I looked at the following tutorial 
-https://
 
 
 I looked at and w3 for 

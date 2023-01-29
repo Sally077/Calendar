@@ -32,23 +32,47 @@
     <div class="container">
       <!-- Timeblocks go here -->
 
+      <!-- bootstrap form test here -->
+
+      <form class="form-inline" action="/action_page">
+        <div class="form-group">
+          <input type="currentHour" class="form-control" id="hour">
+          </div>
+          <div class="form-group">
+          <input type="textInput" class="form-control" id="text" class="w-75" style="background-color:grey">
+          </div>
+          <div class="button">
+          </div>
+          <button type="save" class="btn btn-default">Save</button>
+      </form>
+      <!-- form test ends here -->
+
+
+
+
+
+
+      
       <form>
+        <div class="row"></div>
       <div class="textInput">
         <label for="entertext"></label>
-        <input type="text" id="enterText">
-        <input type="savetext" id="savedata" value="save">
-        </div>
+        <input type="text" id="enterText" class="w-75" style="background-color:grey">
+        <div class="input-group mb-4">
+        <div class="style="background-color:blueviolet"> <ion-icon name="save-outline"></ion-icon></div>
+        <!-- <input type="savetext" id="savedata" value="save"> -->
+      </div>
+      </div>
       </form>
 
-    <div class="row">
+    
       <div class="col-sm">
         9am
       </div>
-      <label for="textarea1"></label>
-      <textarea class="w-75" id="textarea1" style="background-color:grey">
-      </textarea></div>
-      <div class="col-sm" style="background-color:blueviolet"></div>
-      <div id="msg"></div>
+      <!-- <label for="textarea1"></label>
+      <textarea  id="textarea1" >
+      </textarea></div> -->
+      
       <!-- <button id="save">Save</button> -->
       <!-- <i class="disk"></i></div> <i class="fa-regular fa-floppy-disk"></i> -->
     </div>
@@ -56,9 +80,9 @@
  
 
     <div class="row">
-      <div class="col-md-3 col-md-push-9" style="background-color: limegreen" >10am</div>
-      <div class="col-md-6 col-md-pull-6" style="background-color:grey">.col-md-6 .col-md-pull-6</div>
-      <div class="col-md-3 col-md-push-9" style="background-color:blueviolet">.col-md-3 .col-md-push-9</div>
+      <div class="col-md-3 col-md-push-9">10am</div>
+      <div class=" text col-md-6 col-md-pull-6 bg-danger" id="enterText" >.col-md-6 .col-md-pull-6</div>
+      <div class="col-md-3 col-md-push-9 bg-info" style="background-color:blueviolet">.col-md-3 .col-md-push-9</div>
     </div>
 
     <div class="row">
