@@ -84,11 +84,16 @@ https://www.tutorialspoint.com/How-to-compare-two-dates-with-JavaScript#:~:text=
 I tried the following text from w3 schools to try and add a scroll bar as part of the brief
 https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy2&stacked=h
 
+code for adding CSS scroll bar (did not apply to the area below the jumbotron)
+https://www.geeksforgeeks.org/how-to-change-the-position-of-scrollbar-using-css/
+
+How to save to local storage using objects and stringify
+https://www.youtube.com/watch?v=AUOzvFzdIk4
+
+
+
 <!-- replace below -->
 
-
-I looked at and w3 for 
-https://https://www.w3schools.com/
 
 
 
