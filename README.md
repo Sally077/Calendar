@@ -1,87 +1,126 @@
-# Third-Party APIs: Work Day Scheduler
+# <Multi Creation of Daily Planner App>
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+In this project the brief is to create a daily schedule planner. Although the brief is very open ended in terms of choice frameworks and coding conventions there are specific criteia that needs to be achieved to meet the user needs. Below is a list of the set brief that needs to be achieved to meet the user requirments.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+Task 1 - Display the current day at the top of the calendar when a user opens the planner.
+Task 2 - Present timeblocks for standard business hours when the user scrolls down.
+Task 3 - Color-code each timeblock based on past, present, and future when the timeblock is viewed.
+Task 4 - Allow a user to enter an event when they click a timeblock.
+Task 5 - Save the event in local storage when the save button is clicked in that timeblock.
+Task 6 - Persist events between refreshes of a page.
 
-## User Story
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+Pseudocode
+add current date from moments.js
+create query selector for text labels and buttons
+
+
+
+
+Achievements
+
+Issues
+
+
+
  
-## Acceptance Criteria
-
-The app should:
-
-* Display the current day at the top of the calender when a user opens the planner.
- 
-* Present timeblocks for standard business hours when the user scrolls down.
- 
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
- 
-* Allow a user to enter an event when they click a timeblock
-
-* Save the event in local storage when the save button is clicked in that timeblock.
-
-* Persist events between refreshes of a page
-
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+   
 
 
-## Grading Requirements
+## Table of Contents (Optional)
 
-This homework is graded based on the following criteria: 
+If your README is long, add a table of contents to make it easy for users to find what they need.
 
-### Technical Acceptance Criteria: 40%
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Installation
 
-  * Uses a date utility library to work with date and time
+My code does not currently need an install and can be viewed directly through the URL.
 
-### Deployment: 32%
+## Usage
 
-* Application deployed at live URL
+Provide instructions and examples for use. Include screenshots as needed.
 
-* Application loads with no errors
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-* Application GitHub URL submitted
 
-* GitHub repo contains application code
 
-### Application Quality: 15%
 
-* Application user experience is intuitive and easy to navigate
 
-* Application user interface style is clean and polished
+## Credits
 
-* Application resembles the mock-up functionality provided in the homework instructions
+There were no collaborators in this task.
 
-### Repository Quality: 13%
 
-* Repository has a unique name
+I followed the bootcamp zoom tutorial recordings from week 6 on local storage . 
 
-* Repository follows best practices for file structure and naming conventions
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-* Repository contains multiple descriptive commit messages
 
-* Repository contains quality README file with description, screenshot, and link to deployed application
+<!-- Remove old links and replace with new ones as we go along -->
 
-## Review
+I looked at the following video tutorial on how to save inputs to local storage by R3HAB Media
+https://www.youtube.com/watch?v=6PsBeh2MgYc
 
-You are required to submit the following for review:
 
-* The URL of the deployed application
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+<!-- replace below -->
 
+
+
+
+I looked at the following tutorial 
+https://
+
+
+I looked at and w3 for 
+https://https://www.w3schools.com/
+
+
+
+I looked at various methods on this site.
+https://www.
+
+I trawled this website look at different ways to set timers using setInverval
+https://ww
+
+
+## License
+
+I have chosen a MIT license for this project
 ---
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+## Badges
+
+I  have 2 git hub badge acheivements pullshark x2 and YOLO
+
+## Features
+
+No features added as main focus was working on a solution
+
+## How to Contribute
+
+N/A
+
+## Tests
+
+I have created a series of tests as I went along and took screenshots of some of the tests I tried when I ran my code.
+
+Test 1 Testing 
+
+Test 2 Console log 
+
+Test 3 Checking that the colour will show grey
+
+Test 4 Checking that the colour will show  green
+Test 5 Testing to see if the hour matches the current time
+
+Test x testing to see if the inputted data will save to local storage
+
+
+
