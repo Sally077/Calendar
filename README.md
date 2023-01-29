@@ -71,6 +71,9 @@ https://www.youtube.com/watch?v=6PsBeh2MgYc
 I looked at the following website tutorial on w3schools
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_localstorage
 
+These tutorials from netninja helped me to understand how to apply some of the features in bootstrap
+https://www.youtube.com/watch?v=iUCyU_U0J2E
+
 <!-- replace below -->
 
 

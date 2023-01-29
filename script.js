@@ -35,12 +35,7 @@ function nameDisplayCheck() {
     }
 }console.log(localStorage.getItem('text'))
 
-// test for local here
 
-// Set Item
-localStorage.setItem("lastname", "Smith");
-// Retrieve
-document.getElementById("demo").innerHTML = localStorage.getItem("lastname");
 
 
 
