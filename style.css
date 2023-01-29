@@ -100,20 +100,44 @@ background-color: #ff6961;
   height: 40px;
 }
 
-body {
-  position: relative;
+
+
+/* Set the style of container
+  div element */
+.ContainerScroll{
+height: 150px;
+width: 250px;
+overflow-y: auto;
+background-color: green;
+border-radius: 5px;
+margin: 0 auto;
 }
-ul.nav-pills {
-  top: 20px;
-  position: fixed;
-}
-div.col-sm-9 div {
-  height: 250px;
-  font-size: 28px;
+/* Set the effects to the division
+named content */
+.Content{
+height: 200px;
+color: white;
+text-align: center;
 }
 
-@media screen and (max-width: 810px) {
-  #section1, #section2, #section3, #section41, #section42  {
-    margin-left: 150px;
-  }
+/* Designing for scroll-bar */
+::-webkit-scrollbar {
+width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: gainsboro;
+border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: black;
+border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555;
 }
