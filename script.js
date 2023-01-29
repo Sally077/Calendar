@@ -1,10 +1,10 @@
 var today = moment();
 $("#currentDay").text(today.format("D MMM YYYY"));
 
-var form = document.querySelector("form")
-var addText = document.querySelector(".textInput");
+var input = document.querySelector(".input")
+var addText = document.querySelector("#timeText");
 var getText = document.querySelector(".enterText");
-var saveBtn = document.querySelector("#savedata");
+var saveBtn = document.querySelector("#save");
 
 var h1 = document.querySelector("h1");
 var note = document.querySelector(".dataStored");
@@ -15,14 +15,14 @@ var saved = document.querySelector(".p");
 
 // Event Listener
 
-form.addEventListener("#save", function(event) {
+input.addEventListener("#save", function(event) {
     event.preventDefault();
 
 // });
 
 saveBtn.addEventListener('click', function(){
 
-    localStorage.setItem('text', enterText.value);
+    localStorage.setItem('#timeText', timeText.value);
     nameDisplayCheck();
 })
 
@@ -61,4 +61,20 @@ var output = document.getElementById("9");
 
 })
 
-    console.log(compareDates);
+// local storage test
+
+var data = {
+    firstName: "Sally",
+    secondName: "Hedges"
+};
+
+var data_serialized = JSON.stringify(data);
+console.log(data_serialized);
+
+localStorage.setItem("data", data);
+console.log(localStorage);
+
+
+
+
+    // console.log(date1, date2);
