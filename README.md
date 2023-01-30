@@ -90,18 +90,11 @@ https://www.geeksforgeeks.org/how-to-change-the-position-of-scrollbar-using-css/
 How to save to local storage using objects and stringify
 https://www.youtube.com/watch?v=AUOzvFzdIk4
 
-
-
-<!-- replace below -->
-
+I looked at more local storage videos because I became confused with all the different query selectors and naming.
+https://www.youtube.com/watch?v=fYTTUBa-lPc
 
 
 
-I looked at various methods on this site.
-https://www.
-
-I trawled this website look at different ways to set timers using setInverval
-https://ww
 
 
 ## License
@@ -115,7 +108,7 @@ I  have 2 git hub badge acheivements pullshark x2 and YOLO
 
 ## Features
 
-No features added as main focus was working on a solution
+No additional features added as main focus was working on a solution
 
 ## How to Contribute
 
