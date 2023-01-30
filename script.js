@@ -7,9 +7,9 @@ var textInput = document.querySelector('#textInput');
 var saveButton = document.querySelector("#save");
 
 saveButton.addEventListener("click", function(event) {
-
-
     event.preventDefault();
+    localStorage.setItem("data", textInput.value);
+    localStorage.setItem("data", textInput.value);
 });
 
 var data = {
@@ -19,9 +19,9 @@ var data = {
 
 console.log(data);
 
-localStorage.setItem("data", data);
+localStorage.setItem("data", JSON.stringify(data));
 
-var textInput = localStorage.getItem("data");
+var textInput = JSON.parse(localStorage.getItem("data"));
 
 
 
