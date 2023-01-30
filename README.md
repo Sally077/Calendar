@@ -93,8 +93,8 @@ https://www.youtube.com/watch?v=AUOzvFzdIk4
 I looked at more local storage videos because I became confused with all the different query selectors and naming.
 https://www.youtube.com/watch?v=fYTTUBa-lPc
 
-
-
+Support with colour coding the time blocks I looked at the following and edited elements
+https://stackoverflow.com/questions/62925657/can-anyone-help-me-colorcode-my-time-blocks-using-jquery
 
 
 ## License
@@ -118,16 +118,23 @@ N/A
 
 I have created a series of tests as I went along and took screenshots of some of the tests I tried when I ran my code.
 
-Test 1 Testing 
+Test 1 Testing to see if the date displayed on the web browser matched up after applying the moment code
 
-Test 2 Console log 
+Test 2 testing to see how the time blocks are shown after applying various bootstrap frameworks and styles
 
-Test 3 Checking that the colour will show grey
+Test 3 Checking that the colour will show grey if the time has passed
 
-Test 4 Checking that the colour will show  green
-Test 5 Testing to see if the hour matches the current time
+Test 4 Checking that the colour will show  green if the time has not yet occured 
 
-Test x testing to see if the inputted data will save to local storage
+
+Test 5 Checking that the colour will show  red when time is currently displayed
+
+
+Test 6 Checking to see if the hour matches the current time
+
+Test 7 checking to see if a text input is saved to local storage
+
+Test 8 Checking to see if data remains when data is refreshed in the browser
 
 
 
