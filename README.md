@@ -16,12 +16,34 @@ Pseudocode
 add current date from moments.js
 create query selector for text labels and buttons
 
+create event listener linked to save button to save text to local storage
 
+add set local storage
+add get local storage
+create if statements linked to hours of the day using moments that colour co-ordinate time blocks 
 
 
 Achievements
 
+I was able to partially fullfill the objectives in the brief. I was able to create a series of time blocks using bootstrap. I downloaded the moment code to apply time/date functions.
+I was able to pass through data into the local storage. I was able to successfully enter text into the appointment area.
+
 Issues
+
+I struggled a lot with bootstrap and trying to get the blocks in the right position. I tried to add a text area but was unable to aligh this with the time and the save button on the same row so eventually settled for an input which allowed me to enter text. I tried to apply lots of different documents looking at the bootstrap documentation to try and make my time block height match up with the save button but was unable to get this to work.
+
+
+I managed to get the moment current date working at the top of the organiser.
+
+I spent a lot of time trying to figure out how to work the local storage and even though I feel like I have a much better understanding of how this code works I was still unable to pass through the text onto the application area in the browser even though I used the JSON stringify method and played with this a lot. It did not fully work and it would not remain when I refreshed my page.
+
+I tried a couple of different codes for the if statement to try and colour code the time blocks I think that the issue could have been down to either not linking to the hour text properly in the HTML or not applying the styling correctly.
+
+Even though I spent a lot of time and many hours trying to figure this out I think that I gained more experience of understanding query selectors and local storage and was able to work more methodically this time round.
+
+Improvements
+
+If given more time I would like to have fixed the local storage and got the text to save and remain when refreshed. To have created a function that coloured the time blocks and made the look of my day planner more aesthetically pleasing.
 
 
 
